@@ -6,7 +6,7 @@
 /*   By: quenalla <quenalla@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/06 11:18:10 by quenalla          #+#    #+#             */
-/*   Updated: 2024/09/06 14:00:03 by quenalla         ###   ########.fr       */
+/*   Updated: 2024/09/06 14:35:13 by quenalla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,9 +46,9 @@ int	main(void)
 	lt	s_attack1;
 	rt	s_heal1;
 
-	s_barre_de_vie1.joueur = 1;
-	s_barre_de_vie1.ennemies = 8;
-	s_barre_de_vie1.allies = 8;
+	s_barre_de_vie1.joueur = 20;
+	s_barre_de_vie1.ennemies = 20;
+	s_barre_de_vie1.allies = 0;
 	s_attack1.attack_joueur = 2;
 	s_attack1.attack_ennemies = 2;
 	s_attack1.attack_allies = 1;
